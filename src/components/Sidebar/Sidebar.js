@@ -16,7 +16,7 @@ function Sidebar() {
             </div>
             <div className='sidebarChats'>
                 <h2 className="h2">Add new chat</h2>
-                <UserHeader userType="chatUser"/>
+                <UserHeader userType={'chatUser'}/>
             </div>
         </div >
     );
