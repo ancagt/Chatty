@@ -1,0 +1,144 @@
+.Chat {
+  flex: 0.65;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(to right, #51ca73, #1c9a70);
+}
+
+.chatHeader {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f6f6f6;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 39px;
+  box-shadow: -1px 4px 20px -6px gray;
+  border-bottom: 1px solid lightgray;
+  align-items: center;
+}
+
+.rightChatHeader {
+  float: right;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 100px;
+}
+
+.chatHeaderInfo {
+  flex: 1;
+  padding-left: 20px;
+}
+
+.chatHeaderInfo > h3 {
+  margin-bottom: 3px;
+  font-weight: 500;
+}
+
+.chatHeaderInfo > p {
+  color: gray;
+}
+
+.iconsColor {
+  color: #1c9a70;
+}
+
+.chatBody {
+  background-color: #f6f6f6;
+  overflow: scroll;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 300px;
+  padding: 30px;
+  margin-bottom: 5px;
+}
+
+.chatBottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 62px;
+  border-top: 1px solid lightgray;
+
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background-color: #f6f6f6;
+
+  /* padding: 20px;
+  box-shadow: -1px 4px 20px -6px gray; */
+}
+
+.chatBottom > form > input{ 
+  flex:1;
+  border-radius:30px;
+}
+
+
+.chatMessage {
+  position: relative;
+  font-size: 16px;
+  padding: 10px;
+  background-color: lightgray;
+  border-radius: 10px;
+  width: fit-content;
+}
+
+.chatReveicer {
+  background-color: #75cfb1;
+  margin-left: auto;
+  float: right;
+}
+
+.chatSendContainer {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+  height: 35px;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+
+.chatSendContainer > input {
+  border: none;
+  margin-left: 10px;
+  padding: 10px;
+  border: none;
+}
+
+.chatSendContainer > .MuiSvgIcon-root {
+  color: #1c9a70;
+  padding: 10px;
+}
+
+.chatSendContainer > .MuiInput-underline::after {
+  border-bottom-color: #1c9a70;
+}
+
+.input {
+  width: 98%;
+}
+
+.chatName {
+  top: -15px;
+  font-size: xx-small;
+  font-weight: bold;
+  position: absolute;
+}
+
+.chatTimestap {
+  margin-left: 50px;
+  font-size: xx-small;
+  font-weight: bold;
+  position: absolute;
+}
+
+.startNewChat{
+  text-align: center;
+  padding: 120px 0;
+}

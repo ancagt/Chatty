@@ -1,12 +1,28 @@
 import './Sidebar.css';
-import { Input } from '@material-ui/core';
-import { SearchOutlined } from '@material-ui/icons';
-import UserHeader from '../Users/UserHeader';
+import { Avatar, IconButton, Input } from '@material-ui/core';
+import { Chat, DonutLarge, MoreVert, SearchOutlined } from '@material-ui/icons';
+import SidebarChat from './SidebarChat';
 function Sidebar() {
+
     return (
         <div className="Sidebar">
-           
-           <UserHeader userType={'profileUser'}/>
+            <div className='sidebarHeader'>
+                <IconButton>
+                    <Avatar src={`https://avatars.dicebear.com/api/human/aaaaaaa.svg`} />
+                </IconButton>
+
+                <div className='rightHeader'>
+                    <IconButton>
+                        <DonutLarge className='iconsColor' />
+                    </IconButton>
+                    <IconButton>
+                        <Chat className='iconsColor' />
+                    </IconButton>
+                    <IconButton>
+                        <MoreVert className='iconsColor' />
+                    </IconButton>
+                </div>
+            </div>
 
             <div className='sidebarSearch'>
                 <div className='searchContainer'>
@@ -15,8 +31,11 @@ function Sidebar() {
                 </div>
             </div>
             <div className='sidebarChats'>
-                <h2 className="h2">Add new chat</h2>
-                <UserHeader userType={'chatUser'}/>
+
+                <SidebarChat addNewChat />
+                <SidebarChat />
+                <SidebarChat />
+                <SidebarChat />
             </div>
         </div >
     );

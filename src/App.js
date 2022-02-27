@@ -6,8 +6,10 @@ function App() {
   return (
     <div className="app">
       <div className='appBody'>
-        <div className='Sidebar'><Sidebar /></div>
-        <div className='Chat'> <Chat /></div>
+        <div className='Sidebar'>
+          <Sidebar />
+        </div>
+        <div className='Chat'> <Chat chatName/></div>
 
       </div>
     </div>

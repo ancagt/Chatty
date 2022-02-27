@@ -1,0 +1,31 @@
+{"UserData":
+        [{
+            "id": 1,
+            "receiverName": "Andrei",
+            "lastMessage":"Ia o punga de boabe pentru Jessy",
+            "timeSent": "10/10/2021",
+            "messageReceived": "",
+            "messageSent": "",
+            "seen": true
+
+        },
+        {
+            "id": 2,
+            "receiverName": "Mama",
+            "lastMessage": "Sunteti bine?",
+            "timeSent": "10/10/2021",
+            "messageReceived": "",
+            "messageSent": "",
+            "seen": true
+
+        },
+        {
+            "id": 3,
+            "receiverName": "Maria",
+            "lastMessage": "Succes la prezentare, ajung si eu imediat",
+            "timeSent": "10/10/2021",
+            "messageReceived": "",
+            "messageSent": "",
+            "seen": true
+
+        }]}

@@ -47,13 +47,17 @@
 .searchContainer > .MuiInput-underline::after {
   border-bottom-color: #1c9a70;
 }
+
 .sidebarChats {
   background-color: #f6f6f6;
   margin-left: 20px;
   margin-right: 20px;
   padding: 10px;
-  height: 400px;
+  height: 380px;
+  margin-bottom: 20px;
+  overflow: scroll;
   box-shadow: -1px 4px 20px -6px gray;
+  
 }
 
 .bottomContent{
@@ -67,3 +71,49 @@
 .sidebarChatStyle{
     background-color: white;
 }
+
+
+
+/* user header */
+
+.iconsColor {
+  color: #1c9a70;
+}
+
+.sidebarHeader {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f6f6f6;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 39px;
+  box-shadow: -1px 4px 20px -6px gray;
+}
+
+.rightHeader {
+  float: right;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 10vw;
+}
+
+.chatBar{
+    border: 2px black;
+    background-color: white;
+}
+
+.chatUserName{
+
+}
+
+.leftChatMessage{
+    font-style: italic; 
+    font-weight: small;
+}
+
+
+/* user header */
