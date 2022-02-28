@@ -73,24 +73,30 @@
   box-shadow: -1px 4px 20px -6px gray; */
 }
 
-.chatBottom > form > input{ 
-  flex:1;
-  border-radius:30px;
+.chatBottom > form > input {
+  flex: 1;
+  border-radius: 30px;
 }
-
 
 .chatMessage {
   position: relative;
   font-size: 16px;
-  padding: 10px;
+  margin-top: 60px;
+  padding: 5px;
+  margin-left: 10px;
   background-color: lightgray;
   border-radius: 10px;
-  width: fit-content;
+  width: 50%;
 }
 
 .chatReveicer {
+  position: relative;
+  font-size: 16px;
+  margin-top: 10px;
+  border-radius: 10px;
+  padding: 5px;
+  width: 50%;
   background-color: #75cfb1;
-  margin-left: auto;
   float: right;
 }
 
@@ -116,12 +122,13 @@
   padding: 10px;
 }
 
-.chatSendContainer > .MuiInput-underline::after {
+.form > .MuiInput-underline:after {
   border-bottom-color: #1c9a70;
 }
 
 .input {
-  width: 98%;
+  width: 100%;
+  margin-right: 20px;
 }
 
 .chatName {
@@ -129,6 +136,7 @@
   font-size: xx-small;
   font-weight: bold;
   position: absolute;
+  width: fit-content;
 }
 
 .chatTimestap {
@@ -138,7 +146,19 @@
   position: absolute;
 }
 
-.startNewChat{
+.submitButton {
+  background-color: #1c9a70;
+  color: white;
+  margin-right: 20px;
+  border-radius: 12px;
+  border: none;
+}
+
+.form{
+  display: inline-flex;
+  width: inherit;
+}
+.startNewChat {
   text-align: center;
   padding: 120px 0;
 }
