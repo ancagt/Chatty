@@ -10,15 +10,6 @@
   display: flex;
   height: 90vh;
   margin-top: -50px;
-  /* view height//width */
   width: 90vw;
   box-shadow: -1px 4px 20px -6px #51ca73;
 }
-/* 
-.Sidebar {
-  width: 40%;
-}
-
-.Chat {
-  width: 60%;
-} */
